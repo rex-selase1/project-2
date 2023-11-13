@@ -64,11 +64,55 @@ h2 {
 h3 {
   font-size: 1.5rem;
 }
-/* come back here later */
+.title{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  margin: 20px;
+}
+.foods{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 50px auto;
+  background-color: #b3c9f0;
 
+}
+.card{
+  margin: 20px;
+  width: 20%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  
+}
+.card h4{
+  margin: 5px;
+}
+.card p{
+  margin: 5px;
+}
+.card img{
+  width: 300px;
+  height: 280px;
+  padding: 15px; 
+  
+}
+/* come back here later */
+.float-container{
+  position: relative;
+}
+
+
+.float-text{
+  position: absolute;
+  bottom: 50px;
+  left: 40%;
+}
 .logo {
   width: 15%;
   float: left;
+
 }
 .menu {
   line-height: 60px;
@@ -79,7 +123,8 @@ h3 {
 .menu ul li {
   display: inline;
   padding: 1%;
-  font-weight: bold;
+  font-weight: 
+  bold;
 }
 
 /* Food search */
