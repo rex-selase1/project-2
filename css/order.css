@@ -38,6 +38,7 @@ input{
 .order .food-menu-desc{
     width: 40%;
     margin: 25px;
+    line-height: 1.7;
 }
 .second{
     display: grid;
