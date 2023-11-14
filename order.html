@@ -1,33 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/order.css" />
+  </head>
+  <body>
     <!-- nav bar section -->
-<section class="navbar">
-    <div class="container">
+    <section class="navbar">
+      <div class="container">
         <div class="logo">
-            <a href="#"><img src="./images/My_Logo.png" alt="" class="img-responsive"> </a>
+          <a href="#"
+            ><img src="./images/My_Logo.png" alt="" class="img-responsive" />
+          </a>
         </div>
-        
+
         <div class="menu text-right">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="categories.html">Categories</a></li>
-                <li><a href="foods.html">Foods</a></li>
-                <li><a href="order.html">Order</a></li>
-            </ul>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="foods.html">Foods</a></li>
+            <li><a href="order.html">Order</a></li>
+          </ul>
         </div>
         <div class="clearfix"></div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!-- End of navbar section -->
+    <!-- End of navbar section -->
 
+    <section class="food-search" >
+      <div class="container">
+        <h2 class="text-center ">
+          Fill this form to confirm your order
+        </h2>
+        <form action="#" class="order">
+          <fieldset class="first">
+            <legend>Selected Food</legend>
+            <div class="food-menu-img">
+              <img
+                src="./images/istockphoto-1422644298-2048x2048.jpg"
+                alt=""
+                class="img-responsive img-curve" />
+            </div>
 
-</body>
+            <div class="food-menu-desc">
+              <h3>Pizza</h3>
+              <p class="food-price">GHC 67.99</p>
+              <div class="order-label">Quantity</div>
+              <input
+                type="number"
+                name="qty"
+                class="input-responsive"
+                value="1"
+                required />
+            </div>
+          </fieldset>
+
+          <fieldset class="second">
+            <legend>Delivery Details</legend>
+            <label for="" class="order-label">Name</label>
+
+            <input type="text" name="full-name" placeholder="e.g  John Doe" />
+            <br />
+            <label for="" class="order-label">Phone</label>
+
+            <input type="tel" name="full-name" placeholder="+233..." />
+            <br />
+            <label for="" class="order-label">Email</label>
+
+            <input type="email" name="full-name" placeholder="you@anymail.com" />
+            <br />
+
+            <label for="" class="order-label Address">Address</label>
+            <br />
+            <textarea name="" cols="25" rows="10"></textarea>
+            <br />
+            <button type="submit" value="Confirm Order" class="button" >Confirm Order</button>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+  </body>
 </html>

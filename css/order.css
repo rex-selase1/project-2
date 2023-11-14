@@ -1,0 +1,76 @@
+.food-search{
+    background-image:url(https://media.gettyimages.com/id/1132439239/video/soft-white-background.jpg?s=640x640&k=20&c=aYJe5WV1JXnFveTzlOr44dJWnr7wTZx-yvoGCPzhQN8=) ;
+}
+
+fieldset{
+    width: 50%;
+    margin: 5px auto;
+    border: 1px solid rgb(20, 15, 15);
+    background-color: aliceblue;
+    
+}
+legend{
+    text-align: center;
+}
+input{
+    border-radius: 5px;
+    border: 0.5px solid;
+    height: 30px;
+    background-color: white;
+   
+}
+.first{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+}
+.order .food-menu-img{
+    margin: 10px;
+    width: 60%;
+}
+.order img{
+    width: 200px;
+    height: 200px;
+   
+}
+.order .food-menu-desc{
+    width: 40%;
+    margin: 25px;
+}
+.second{
+    display: grid;
+    /* flex-direction: column; */
+    width: 30%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+}
+.second label{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+  
+}
+.second input{
+    width: 400px;
+}
+textarea{
+    border-radius: 5px;
+}
+.Address{
+    margin-top:5px ;
+   line-height: 0;
+}
+ button{
+    
+    width: 30%;
+    padding: 8px;
+    height: 40px;
+    margin: 5px auto;
+    text-align: center;
+    color: white;
+    background-color: crimson;
+    border: 0;
+    border-radius: 5px;
+}
